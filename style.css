@@ -1,0 +1,110 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+   
+}
+body{
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    
+}
+
+.header{
+    background-color: aqua;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding:20px;
+   
+}
+h1,ul,li{
+    display: inline-block;
+}
+
+ul{
+  margin-left:60%;
+}
+
+li{
+    color: grey;
+    font-size: 25px;
+}
+li:hover{
+    color:white;
+    cursor: pointer;
+}
+.main{
+    border:2px solid black;
+    background-color: beige;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 450px;
+    width: 550px;
+    height:450px;
+
+
+}
+input{
+    border :2px solid grey;
+    border-radius: 5px;
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 35px;
+    width: 50%;
+}
+.inputflex{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.surname{
+    margin-right: 10px;
+} 
+.email,.Password,.dateofbirth{
+    width: 865px;
+}
+
+.dateofbirth{
+    padding: none;
+}
+.birth{
+    margin-left: 35px;
+    padding: 10px;
+    color: gray;
+}
+.btn{
+    padding:15px 0px;
+   display:flex;
+   justify-content: center;
+}
+button{
+    height:30px;
+    width: 80px;
+     border-radius: 5px;
+    background-color:rgb(230, 16, 16);
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.signupform{
+    padding:10px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px; 
+}
+.anger{
+    padding: 2px;
+    text-align: center;
+  
+  
+}
+a{
+    color: blue;
+}
